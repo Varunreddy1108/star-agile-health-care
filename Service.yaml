@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: HealthCare-service
+  name: healthCare-service
 spec:
   selector:
-    app: HealthCare 
+    app: healthCare 
   ports:
     - protocol: TCP
       port: 8082   
